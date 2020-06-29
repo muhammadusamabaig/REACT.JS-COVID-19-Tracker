@@ -24,16 +24,16 @@ class Navigation extends Component{
    
  render(){  
        return(
-           <div class="topnav" id="myTopnav">
+           <div className="topnav" id="myTopnav">
           
-           <a href="#home" class="active"><img alt="home" style={{height
+           <a href="#home" className="active"><img alt="home" style={{height
            :"32px",width:"32px"}} src="covidicon.jpg"/></a>
            <a href="/">Home</a>
            <a href="/terms">Term & Conditions</a>
            <a href="/contact">Contact</a>
            
 
-           <a href="#////" class="icon" onClick={this.myFunction}>
+           <a href="#////" className="icon" onClick={this.myFunction}>
              <i className="fa fa-bars"></i>
            </a>
            
