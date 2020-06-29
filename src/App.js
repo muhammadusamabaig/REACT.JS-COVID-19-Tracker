@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import fetch from './fetching'
 import Chart from './Chart'
-import Navigation from './Navigation' 
+// import Navigation from './Navigation' 
 
 import Footer from './Footer'
 import Contact from './Contact'
@@ -74,25 +74,25 @@ var singlecountryname
   <div>
 <Switch>
 <Route exact path="/">
-<Navigation/>
+{/* <Navigation/> */}
       <img src={process.env.PUBLIC_URL + '/covid.jpg'} alt="covid-img" style={{width:"100%"}} /> 
 
 
       <Chart getsinglecountrydata={getsinglecountrydata}/>
 
     <Carddesign  fetchdata={this.state.data}/>
-    <Footer/>
+    {/* <Footer/> */}
 
 </Route>
 
 <Route path="/contact">
-<Navigation/>
+{/* <Navigation/> */}
 
 <Contact/>
 
 </Route>
 <Route path="/terms">
-<Navigation/>
+{/* <Navigation/> */}
 
 <Terms/>
 <Footer/>
