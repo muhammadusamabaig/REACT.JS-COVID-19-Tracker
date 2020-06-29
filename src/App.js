@@ -3,7 +3,7 @@ import fetch from './fetching'
 import Chart from './Chart'
 import Navigation from './Navigation' 
 
-// import Footer from './Footer'
+import Footer from './Footer'
 import Contact from './Contact'
 import Terms from './Terms'
 import {
@@ -81,7 +81,7 @@ var singlecountryname
       <Chart getsinglecountrydata={getsinglecountrydata}/>
 
     <Carddesign  fetchdata={this.state.data}/>
-    {/* <Footer/> */}
+    <Footer/>
 
 </Route>
 
@@ -95,7 +95,7 @@ var singlecountryname
 <Navigation/>
 
 <Terms/>
-{/* <Footer/> */}
+<Footer/>
 </Route>
 </Switch>
 </div>
