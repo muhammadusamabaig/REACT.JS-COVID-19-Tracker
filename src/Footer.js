@@ -23,7 +23,7 @@ class Footer extends Component{
 
  </ul>
  <ul style={{marginLeft:"12%",paddingLeft:"0px",width:"92px",listStyleType:"none",float:"left"}}>
-   <li><a href="#/" className="fa fa-facebook">facebook</a></li>
+   <li><a href="#/" className="fa fa-facebook"></a></li>
    <li><a href="#/" className="fa fa-instagram"></a>
 </li>
 
