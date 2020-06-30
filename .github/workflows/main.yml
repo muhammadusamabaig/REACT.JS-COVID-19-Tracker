@@ -24,9 +24,9 @@ jobs:
     - name: Setup Node.js environment
       uses: actions/setup-node@1.4.2
       with:
-         version: 12
+        version: 12
     - name: action-yarn
-      uses: comchangs/action-yarn@v0.1-beta 
+      uses: Borales/action-yarn@v2.1.0 
       with:
         cmd: install
         
@@ -38,4 +38,4 @@ jobs:
       run: surge ./build http://covidtracking.surge.sh/ --token ${{secrets.COVID19TRACKER}}
           
          
-         :  
+         
