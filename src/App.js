@@ -66,8 +66,6 @@ var singlecountryname
     
      
 
-
-    
 <Router>
   <div>
 <Switch>
@@ -93,7 +91,7 @@ var singlecountryname
 <Navigation/>
 
 <Terms/>
-<Footer/>
+{/* <Footer/> */}
 </Route>
 </Switch>
 </div>

@@ -11,7 +11,7 @@ class Footer extends Component{
 <div style={{paddingTop:"3%"}}>
 <img src="companylogo.png" alt="company logo" style={{width:"200px",height:"70px",marginLeft:"5%"}}/><span ><a style={{marginLeft:"10px",color:"white",textDecoration:"underline"}} href="mailto:muhammadusamabaig099@gmail.com">muhammadusamabaig099@gmail.com</a></span><br/>  
 </div>
- <ul style={{paddingLeft:"4%",width:"92px",listStyleType:"none" ,float:"left"}}>
+ {/* <ul style={{paddingLeft:"4%",width:"92px",listStyleType:"none" ,float:"left"}}>
    <li><a href="#//" className="fa fa-twitter"></a>
 </li>
    <li><a href="#//" className="fa fa-google"></a>
@@ -23,7 +23,7 @@ class Footer extends Component{
 
  </ul>
  <ul style={{marginLeft:"12%",paddingLeft:"0px",width:"92px",listStyleType:"none",float:"left"}}>
-   <li><a href="#/" className="fa fa-facebook"></a></li>
+   <li><a href="#/" className="fa fa-facebook"></a>jkj</li>
    <li><a href="#/" className="fa fa-instagram"></a>
 </li>
 
@@ -33,7 +33,7 @@ class Footer extends Component{
  
 
  </ul> 
-
+ */}
 
  
 

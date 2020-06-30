@@ -26,8 +26,8 @@ class Navigation extends Component{
        return(
            <div className="topnav" id="myTopnav">
           
-           <a href="#home" className="active"><img alt="home" style={{height
-           :"32px",width:"32px"}} src="covidicon.jpg"/></a>
+           {/* <a href="#home" className="active"><img alt="home" style={{height
+           :"32px",width:"32px"}} src="covidicon.jpg"/></a> */}
            <a href="/">Home</a>
            <a href="/terms">Term & Conditions</a>
            <a href="/contact">Contact</a>
