@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+Link
+} from "react-router-dom";
 import './contactphone.css';
  
-// import { Navbar ,Nav,Form,Button, FormControl} from 'react-bootstrap';
 
-//navigation hy ya
 
 class Navigation extends Component{
 
@@ -24,16 +27,16 @@ class Navigation extends Component{
    
  render(){  
        return(
-           <div class="topnav" id="myTopnav">
+           <div className="topnav" id="myTopnav">
           
-           <a href="" class="active"><img alt="home" style={{height
+           <a href="" className="active"><img alt="home" style={{height
            :"32px",width:"32px"}} src="covidicon.jpg"/></a> */}
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
            <a href="#footer" className="d-none d-md-block">Term & Conditions</a>
-           <a href="#chart" >statistics</a>
+           <a href="#chart" >states</a>
 
 
-           <a href="#////" class="icon" onClick={this.myFunction}>
+           <a href="#////" className="icon" onClick={this.myFunction}>
              <i className="fa fa-bars"></i>
            </a>
            
