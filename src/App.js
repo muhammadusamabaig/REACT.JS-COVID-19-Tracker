@@ -67,10 +67,10 @@ var singlecountryname
      
 
 <Router>
-  <div>
+  
 <Switch>
 <Route exact path="/">
-<Navigation/>
+   <Navigation/>
       <img src={process.env.PUBLIC_URL + '/covid.jpg'} alt="covid-img" style={{width:"100%"}} /> 
 
 
@@ -80,21 +80,7 @@ var singlecountryname
     <Footer/>
 
 </Route>
-
-<Route path="/contact">
-<Navigation/>
-
-<Contact/>
-
-</Route>
-<Route path="/terms">
-<Navigation/>
-
-<Terms/>
-{/* <Footer/> */}
-</Route>
 </Switch>
-</div>
 </Router>
   )
 }

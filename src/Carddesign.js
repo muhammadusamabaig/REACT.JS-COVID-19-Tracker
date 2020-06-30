@@ -23,7 +23,7 @@ if(confirmed.value!==0){
     <div>
      
       
-    <div className="container">
+    <div className="container" >
       <div className="row" style={{alignItems:"center"}}>
 
 
