@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import fetch from './fetching'
 import Chart from './Chart'
-import Navigation from './Navigation' 
+import Example from './Navigation' 
 
 import Footer from './Footer'
-import Contact from './Contact'
-import Terms from './Terms'
+// import Contact from './Contact'
+// import Terms from './Terms'
 import {
   BrowserRouter as Router,
   Switch,
@@ -70,7 +70,7 @@ var singlecountryname
   
 <Switch>
 <Route exact path="/">
-   <Navigation/>
+   <Example/>
       <img src={process.env.PUBLIC_URL + '/covid.jpg'} alt="covid-img" style={{width:"100%"}} /> 
 
 

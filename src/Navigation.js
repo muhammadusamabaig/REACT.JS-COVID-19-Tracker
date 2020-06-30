@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-Link
-} from "react-router-dom";
+
+  
 import './contactphone.css';
  
 
@@ -29,9 +25,9 @@ class Navigation extends Component{
        return(
            <div className="topnav" id="myTopnav">
           
-           <a href="" className="active"><img alt="home" style={{height
+           <a href="#covid" className="active"><img alt="home" style={{height
            :"32px",width:"32px"}} src="covidicon.jpg"/></a> */}
-            <Link href="/">Home</Link>
+            <a href="/">Home</a>
            <a href="#footer" className="d-none d-md-block">Term & Conditions</a>
            <a href="#chart" >statkkkkusamkvkdmkmdckmckdmc</a>
 
