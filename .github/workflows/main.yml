@@ -19,7 +19,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v-2
+    - uses: actions/checkout@v2
 
     - name: Setup Node.js environment
       uses: actions/setup-node@v2-beta
@@ -32,10 +32,9 @@ jobs:
         
     - name: yarn build 
       run: yarn build 
+      
     - name: install surge 
       run: npm install -g surge
+      
     - name: deploy on surge
       run: surge ./build http://covidtracking.surge.sh/ --token ${{secrets.COVID19TRACKER}}
-          
-         
-         
