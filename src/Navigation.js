@@ -29,7 +29,7 @@ class Navigation extends Component{
            :"32px",width:"32px"}} src="covidicon.jpg"/></a> */}
             <a href="/">Home</a>
            <a href="#footer" className="d-none d-md-block">Term & Conditions</a>
-           <a href="#chart" >statkkkkusamkvkdmkmdckmckdmc</a>
+           <a href="#chart" >statisticsc</a>
 
 
            <a href="#////" className="icon" onClick={this.myFunction}>
